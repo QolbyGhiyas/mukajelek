@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+span{
+    color: yellow;
+}
+
+.navbar {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem 7%;
+    align-items: center;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .logo{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar  .logo:hover {
+        color: yellow;
+        text-shadow: 0  0 25px yellow,
+                     0  0 25px yellow;
+        transform: scale (1.1);
+    }   
+
+.navbar .navbar-nav a {
+    display: inline-block;
+    align-items: center;
+    color: white;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a.active {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+
+}
+
+.navbar .ikon a{
+    margin: 0 0.5rem;
+    color: white;
+}
+
+.navbar .ikon a:hover{
+    color: yellow;
+}
+
+#hamburger {
+    display: none;
+}
+
+.kontek {
+    padding: 10px 28px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: yellow;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.kontek:hover {
+    background-color: yellow;;
+    box-shadow: 0 0 25px yellow;;
+    color:white;
+} 
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 37px 12% 0;
+}
+
+.home-content {
+    max-width: 500px;
+}
+
+.home-content h3 {
+    font-size: 42px;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 25px 0 30px;
+}
+
+.img-box img {
+    width: 70%;  
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: yellow;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5% 12%;
+    background: black;
+}
+
+
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+
+
+.about-content p {
+    color: white;
+    font-size: 18px;
+    margin: 2em 0 3em;
+}
+
+.kepala {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10% 8%;
+    background: white;
+}
+
+.project {
+    padding: 5% 8%;
+}
+
+.project h2 {
+    text-align: center;
+    color: black;
+    font-size: 33px;
+}
+
+.kontak {
+    padding: 10px 28px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.column {
+    flex: 20%;
+    padding: 5px;
+}
+
+.gambar1 {
+    width: 80%;
+    object-fit: cover;
+}
+
+.gambar2 {
+    width: 80%;
+    object-fit: cover;
+    margin-right: 0px;
+    margin-left: 10%;
+}
+
+.gambar3 {
+    width: 105%;
+}
+
+.gambar4{
+    width: 95%;
+}
+
+.gambar5 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.experiences {
+    justify-content: left;
+    align-items: center;
+    padding: 5% 12%;
+    background-color: black;    
+}
+
+.experiences h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.experiences p {
+    color: white;
+}
+
+.gambar6 {
+    width: 70%;
+    object-fit: cover;
+    display: block;
+}
+
+.gambar7{
+    width: 70%; 
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.gambar8 {
+    width: 70%;
+    object-fit: cover;
+    display: block;
+}
+
+.link {
+    padding: 1px 80px;
+    background-color: yellow;
+    color: black transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .content {
+    max-width: 100000000px;
+    text-align: center;
+}
+
+.contact .content h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.contact .content p {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.container .contactInfo {
+    display: flex;  
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 15px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    background-color: yellow;
+    display: flex;
+    min-width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 19px;
+    font-size: 19px;
+    flex-direction: column;
+    font-weight: 300;
+    flex-basis: auto;
+
+}
+
+.container .contactInfo .box a {
+    background-color: yellow;
+    display: flex;
+    width: 229px;
+    height: 35px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+
+}
+
+.footer {
+    background-color: #ffd900c0;
+    height: 50px;
+}
+
+.footer .kontener {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#backToTopBtn {
+    display: none; /*Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: yellow; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+
+/* MEDIA QUERY */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    html{
+        font-size: 90%;
+    }
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    html{
+        font-size: 75%;
+    }
+
+    #hamburger {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 9%;
+        right: -100%;
+        background: rgb(241, 241, 241);
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a{
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform:scaleX(0.2);
+    }
+
+    .img-box img {
+        width: 99%;  
+    }
+    
+    .link {
+        font-size: 15px;
+        padding: 1px 13px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 540px) {
+    html{
+        font-size: 85%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        gap: 2em;
+        padding: 20px 5%;
+    }
+
+
+    .home-content{
+        max-width: 100%;
+    }
+
+    .home-content h3 {
+        font-size: 32px; 
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+
+    .img-box img {
+        width: 80%; 
+        max-width: 300px;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: rgb(241, 241, 241);
+        width: 100%;
+        height: 100vh;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a {
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+
+    #hamburger {
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav {
+        width: 50%; /* Reduce the width of the sidebar */
+    }
+
+    .navbar .navbar-nav a {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
